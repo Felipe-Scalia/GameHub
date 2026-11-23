@@ -75,4 +75,30 @@ A identidade visual do GameHub utiliza tons de roxo e azul, combinados com eleme
 - Aplicar conhecimentos de desenvolvimento web.
 - Desenvolver interfaces responsivas e intuitivas.
 - Trabalhar com APIs externas.
-- Aplic
+- Aplicar conceitos de usabilidade e acessibilidade.
+- Compreender o funcionamento de funções serverless.
+- Utilizar ferramentas de versionamento e hospedagem web.
+
+## Apoio ao aprendizado
+
+Durante o desenvolvimento do projeto, o ChatGPT foi utilizado como ferramenta de apoio ao aprendizado, à pesquisa, à compreensão de conceitos, à elaboração de exemplos de código e à identificação e correção de erros.
+
+O uso da ferramenta teve como objetivo auxiliar na compreensão das tecnologias utilizadas e no aprimoramento dos conhecimentos adquiridos durante a disciplina.
+
+## Autor
+
+**Felipe Pavan Scalia**
+
+Estudante de Ciência da Computação.
+
+GitHub: https://github.com/Felipe-Scalia
+
+## Créditos
+
+Os dados e as imagens dos jogos são fornecidos pela RAWG Video Games Database.
+
+https://rawg.io/
+
+---
+
+Projeto desenvolvido para fins acadêmicos e educacionais.
