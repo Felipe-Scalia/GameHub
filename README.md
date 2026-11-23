@@ -1,52 +1,78 @@
-# GameHub
+# GameHub 🎮
 
-O GameHub é um site desenvolvido como projeto final da disciplina de Desenvolvimento de Interfaces.
+O GameHub é uma plataforma web voltada à descoberta e organização de jogos eletrônicos, desenvolvida como projeto acadêmico para a disciplina de Desenvolvimento de Interfaces do curso de Ciência da Computação.
 
-A ideia é criar uma plataforma onde os usuários possam pesquisar jogos, conhecer novos títulos e organizar seus jogos favoritos.
+O projeto busca oferecer uma interface moderna, responsiva, intuitiva e acessível, permitindo que os usuários explorem diferentes jogos e organizem sua própria biblioteca de favoritos.
 
-O projeto ainda está em desenvolvimento, então novas funcionalidades serão adicionadas nas próximas versões.
+## Acesse o projeto
+
+🌐 https://gamehub-eta-six.vercel.app/
+
+## Funcionalidades
+
+- Catálogo de jogos integrado à API RAWG.
+- Carrossel de jogos em destaque.
+- Pesquisa de jogos por nome.
+- Filtros por gênero e plataforma.
+- Ordenação dos resultados.
+- Visualização de informações e avaliações dos jogos.
+- Biblioteca pessoal de favoritos.
+- Sorteador de jogos favoritos.
+- Alternância entre tema claro e escuro.
+- Ajuste do tamanho das fontes.
+- Modo de alto contraste.
+- Formulário de contato com validação.
+- Interface responsiva para computadores, tablets e celulares.
 
 ## Tecnologias utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - Bootstrap 5
+- RAWG API
+- Node.js
+- Vercel Functions
+- LocalStorage
+- Git e GitHub
 
-## Funcionalidades atuais
+## Integração com a API
 
-Nesta primeira versão, o site possui algumas funcionalidades básicas.
+O GameHub utiliza a API RAWG para obter informações sobre jogos, incluindo imagens, avaliações, gêneros, plataformas e datas de lançamento.
 
-- Página inicial com três jogos de exemplo.
-- Campo de pesquisa para encontrar jogos pelo nome.
-- Botão para alternar entre modo claro e escuro.
-- Menu de navegação.
-- Layout que se adapta a diferentes tamanhos de tela.
+As requisições são intermediadas por uma função serverless hospedada na Vercel, permitindo que a chave da API seja armazenada em uma variável de ambiente, sem exposição direta no código do navegador.
 
-## Como executar
+## Estrutura do projeto
 
-1. Baixe os arquivos do repositório.
-2. Abra a pasta do projeto no VS Code.
-3. Abra o arquivo `index.html` no navegador ou utilize a extensão Live Server.
+- `index.html` — Estrutura e conteúdo da interface.
+- `css/style.css` — Estilização, responsividade e recursos visuais.
+- `js/script.js` — Interatividade, gerenciamento de dados e funcionalidades.
+- `api/games.js` — Comunicação com a API RAWG.
+- `.gitignore` — Configuração dos arquivos ignorados pelo Git.
+- `README.md` — Documentação do projeto.
 
-É necessário ter conexão com a internet para carregar o Bootstrap.
+## Acessibilidade
 
-## Organização dos arquivos
+O projeto incorpora práticas de acessibilidade inspiradas nas diretrizes WCAG, buscando proporcionar uma experiência mais inclusiva.
 
-O projeto está dividido em três arquivos principais.
+Entre os recursos implementados estão a navegação por teclado, indicadores de foco, ajustes de tamanho de fonte, alto contraste e suporte à preferência por movimento reduzido.
 
-- `index.html` contém a estrutura e os elementos da página.
-- `css/style.css` contém as cores e a aparência do site.
-- `js/script.js` contém as funções de pesquisa e troca de tema.
+## Identidade visual
 
-## Próximas etapas
+A identidade visual do GameHub utiliza tons de roxo e azul, combinados com elementos modernos e uma interface inspirada no universo dos jogos eletrônicos.
 
-Nas próximas versões, pretendo adicionar mais funcionalidades ao GameHub, como uma API para buscar informações sobre jogos, uma biblioteca de favoritos, um sorteador de jogos e uma página de login.
+| Cor | Código |
+|---|---|
+| Fundo escuro | `#0B1020` |
+| Fundo dos cards | `#171D32` |
+| Roxo principal | `#7C3AED` |
+| Roxo secundário | `#A78BFA` |
+| Azul de destaque | `#22D3EE` |
+| Texto claro | `#F8FAFC` |
 
-Também pretendo melhorar a acessibilidade e adicionar outros elementos visuais, como um carrossel de imagens e um formulário de contato.
+## Objetivos acadêmicos
 
-## Ferramentas e apoio no desenvolvimento
-
-Durante o desenvolvimento do projeto, utilizei o ChatGPT como ferramenta de apoio para aprendizado, pesquisa e correção de códigos, além de auxiliar na criação da estrutura inicial.
-
-O uso da inteligência artificial teve como objetivo ajudar a compreender melhor os conteúdos estudados na matéria, encontrar soluções para dificuldades e melhorar o desenvolvimento do site.
+- Aplicar conhecimentos de desenvolvimento web.
+- Desenvolver interfaces responsivas e intuitivas.
+- Trabalhar com APIs externas.
+- Aplic
